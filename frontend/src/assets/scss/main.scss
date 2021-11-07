@@ -1,0 +1,53 @@
+.page-container{
+  margin: 16px 0px;
+  .empty-indicator-text{
+    margin: 0;
+    text-align: center;
+  }
+  .page-card{
+    margin: 0 8px 8px 8px;
+  }
+  .item-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #33333311;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+    a{
+      text-decoration: none;
+      color: #1976d2;
+    }
+    h4,p{
+      font-size: 18px;
+      margin: 0;
+      margin-bottom: 4px;
+    }
+    p{
+      margin: 0;
+      font-size: 14px;
+    }
+    .bold{
+      font-weight: bold;
+    }
+  }
+}
+.profile-card{
+  margin: 16px 0px;
+  .profile-section{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    
+    h4{
+      margin: 8px 16px 8px 0;
+    }
+    p{
+      margin: 8px 0;
+    }
+    .formInput{
+      margin: 8px auto;
+    }
+  }    
+}
